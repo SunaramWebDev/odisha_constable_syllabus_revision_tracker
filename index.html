@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUSSSC Odisha Constable Syllabus & Revision Tracker</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts: Inter & Noto Sans Oriya -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Oriya:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans Oriya', sans-serif;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.1);
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(100, 116, 139, 0.4);
+            border-radius: 9999px;
+        }
+        .checkbox-pop {
+            transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .checkbox-pop:active {
+            transform: scale(0.88);
+        }
+
+        /* 5 Fancy App Theme Variables & Glow Effects */
+        :root, [data-app-theme="emerald"] {
+            --theme-from: #10b981;
+            --theme-to: #0d9488;
+            --theme-accent: #10b981;
+            --theme-soft: rgba(16, 185, 129, 0.12);
+            --theme-border: rgba(16, 185, 129, 0.35);
+            --theme-glow: rgba(16, 185, 129, 0.25);
+        }
+        [data-app-theme="royal"] {
+            --theme-from: #6366f1;
+            --theme-to: #a855f7;
+            --theme-accent: #818cf8;
+            --theme-soft: rgba(99, 102, 241, 0.14);
+            --theme-border: rgba(129, 140, 248, 0.4);
+            --theme-glow: rgba(99, 102, 241, 0.28);
+        }
+        [data-app-theme="sunset"] {
+            --theme-from: #f43f5e;
+            --theme-to: #f59e0b;
+            --theme-accent: #fb7185;
+            --theme-soft: rgba(244, 63, 94, 0.14);
+            --theme-border: rgba(251, 113, 133, 0.4);
+            --theme-glow: rgba(244, 63, 94, 0.28);
+        }
+        [data-app-theme="ocean"] {
+            --theme-from: #0ea5e9;
+            --theme-to: #2563eb;
+            --theme-accent: #38bdf8;
+            --theme-soft: rgba(14, 165, 233, 0.14);
+            --theme-border: rgba(56, 189, 248, 0.4);
+            --theme-glow: rgba(14, 165, 233, 0.28);
+        }
+        [data-app-theme="gold"] {
+            --theme-from: #f59e0b;
+            --theme-to: #ea580c;
+            --theme-accent: #fbbf24;
+            --theme-soft: rgba(245, 158, 11, 0.14);
+            --theme-border: rgba(251, 191, 36, 0.4);
+            --theme-glow: rgba(245, 158, 11, 0.28);
+        }
+
+        .theme-gradient-bg {
+            background: linear-gradient(135deg, var(--theme-from), var(--theme-to)) !important;
+        }
+        .theme-glow-card {
+            box-shadow: 0 8px 30px -6px var(--theme-glow);
+            border-color: var(--theme-border) !important;
+        }
+        .theme-pill-active {
+            background: linear-gradient(135deg, var(--theme-from), var(--theme-to)) !important;
+            color: #ffffff !important;
+            box-shadow: 0 6px 20px -4px var(--theme-glow);
+            border-color: transparent !important;
+        }
+        .theme-swatch-btn {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .theme-swatch-btn:hover {
+            transform: translateY(-2px) scale(1.08);
+        }
+        .theme-swatch-active {
+            transform: scale(1.15);
+            box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--theme-from);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen transition-colors duration-200">
+
+    <!-- Top Navigation & Exam Metadata Banner -->
+    <header class="sticky top-0 z-30 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+                <!-- Title & Badge -->
+                <div class="flex items-start sm:items-center gap-3">
+                    <div class="w-11 h-11 rounded-xl theme-gradient-bg flex items-center justify-center text-white shadow-md shrink-0">
+                        <i class="fa-solid fa-shield-halved text-xl"></i>
+                    </div>
+                    <div>
+                        <div class="flex flex-wrap items-center gap-2">
+                            <span class="px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 rounded-full">
+                                Advt. No. 01-CRE-2026/OUSSSC
+                            </span>
+                            <span id="saveIndicator" class="inline-flex items-center gap-1.5 text-xs font-medium text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/60 px-2.5 py-0.5 rounded-full border border-emerald-200 dark:border-emerald-800/60 transition-opacity duration-300">
+                                <i class="fa-solid fa-cloud-arrow-up text-[10px]"></i>
+                                <span id="saveText">Auto-Saved in Browser ✓</span>
+                            </span>
+                        </div>
+                        <h1 class="text-lg sm:text-xl font-extrabold tracking-tight text-slate-900 dark:text-white mt-0.5">
+                            Odisha Constable Syllabus & Revision Tracker
+                        </h1>
+                        <p class="text-xs text-slate-500 dark:text-slate-400">
+                            Common Written Examination (HSC / 10th Standard) • <span class="font-semibold text-slate-700 dark:text-slate-300">100 MCQs | 100 Marks | 120 Minutes</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Action Buttons (5 Theme Options, Add Subject, Backup, Restore, Reset, Dark/Light) -->
+                <div class="flex flex-wrap items-center gap-2">
+                    <!-- 5 Fancy Theme Color Picker -->
+                    <div class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-slate-100 dark:bg-slate-800/90 border border-slate-200 dark:border-slate-700" title="Choose Fancy App Theme">
+                        <i class="fa-solid fa-palette text-xs text-slate-400 mr-0.5"></i>
+                        <button onclick="setAppColorTheme('emerald')" data-theme-swatch="emerald" title="Emerald Command Theme" class="theme-swatch-btn w-5 h-5 rounded-full bg-gradient-to-tr from-emerald-500 to-teal-400"></button>
+                        <button onclick="setAppColorTheme('royal')" data-theme-swatch="royal" title="Royal Indigo Theme" class="theme-swatch-btn w-5 h-5 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500"></button>
+                        <button onclick="setAppColorTheme('sunset')" data-theme-swatch="sunset" title="Cyber Sunset Theme" class="theme-swatch-btn w-5 h-5 rounded-full bg-gradient-to-tr from-rose-500 to-amber-500"></button>
+                        <button onclick="setAppColorTheme('ocean')" data-theme-swatch="ocean" title="Ocean Breeze Theme" class="theme-swatch-btn w-5 h-5 rounded-full bg-gradient-to-tr from-sky-400 to-blue-600"></button>
+                        <button onclick="setAppColorTheme('gold')" data-theme-swatch="gold" title="Imperial Gold Theme" class="theme-swatch-btn w-5 h-5 rounded-full bg-gradient-to-tr from-amber-400 to-orange-600"></button>
+                    </div>
+
+                    <button onclick="openAddSubjectModal()" class="px-3 py-1.5 text-xs font-bold rounded-lg theme-gradient-bg hover:opacity-95 text-white shadow-sm transition flex items-center gap-1.5" title="Add a New Custom Subject">
+                        <i class="fa-solid fa-folder-plus"></i> + Add New Subject
+                    </button>
+                    <button onclick="exportBackup()" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition flex items-center gap-1.5" title="Download backup file">
+                        <i class="fa-solid fa-download text-emerald-500"></i> Backup
+                    </button>
+                    <label class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition flex items-center gap-1.5 cursor-pointer" title="Restore from backup file">
+                        <i class="fa-solid fa-upload text-indigo-500"></i> Restore
+                        <input type="file" id="importFile" accept=".json" class="hidden" onchange="importBackup(event)">
+                    </label>
+                    <button onclick="openConfirmModal('resetDefaultSyllabus')" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-amber-50 hover:bg-amber-100 dark:bg-amber-950/40 dark:hover:bg-amber-900/50 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800/60 transition flex items-center gap-1.5" title="Restore Default Official Syllabus Structure">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Default Syllabus
+                    </button>
+                    <button onclick="openConfirmModal('resetAll')" class="px-3 py-1.5 text-xs font-semibold rounded-lg bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/40 dark:hover:bg-rose-900/50 text-rose-600 dark:text-rose-400 border border-rose-200 dark:border-rose-800/60 transition flex items-center gap-1.5">
+                        <i class="fa-solid fa-rotate-left"></i> Reset Progress
+                    </button>
+                    <button onclick="toggleTheme()" class="p-2 rounded-lg bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition" title="Toggle Dark/Light Theme">
+                        <i id="themeIcon" class="fa-solid fa-sun text-amber-400"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+
+        <!-- Overall Progress Dashboard Cards -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <!-- Card 1: Total Syllabus Completion -->
+            <div class="bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm theme-glow-card flex flex-col justify-between">
+                <div class="flex items-center justify-between">
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Overall Syllabus Volume</span>
+                    <span id="overallPercentBadge" class="text-xs font-extrabold px-2 py-0.5 rounded-md theme-gradient-bg text-white">0%</span>
+                </div>
+                <div class="my-2 flex items-baseline gap-2">
+                    <span id="overallCompletedCount" class="text-3xl font-extrabold text-slate-900 dark:text-white">0</span>
+                    <span class="text-sm font-medium text-slate-400">/ <span id="overallTotalCount">101</span> Chapters</span>
+                </div>
+                <div class="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden p-0.5 border border-slate-200/60 dark:border-slate-700/60">
+                    <div id="overallProgressBar" class="h-full theme-gradient-bg transition-all duration-500 rounded-full" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <!-- Card 2: Total Revisions Done -->
+            <div class="bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+                <div class="flex items-center justify-between">
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Total Revisions Ticked</span>
+                    <div class="w-7 h-7 rounded-lg bg-indigo-500/10 text-indigo-500 flex items-center justify-center">
+                        <i class="fa-solid fa-repeat text-xs"></i>
+                    </div>
+                </div>
+                <div class="my-2 flex items-baseline gap-2">
+                    <span id="totalRevisionsCount" class="text-3xl font-extrabold text-indigo-600 dark:text-indigo-400">0</span>
+                    <span class="text-xs font-medium text-slate-400">Revision Sessions</span>
+                </div>
+                <p class="text-[11px] text-slate-500 dark:text-slate-400">
+                    <span id="masteredChaptersCount" class="font-bold text-indigo-500">0</span> chapters revised 3+ times
+                </p>
+            </div>
+
+            <!-- Card 3: Remaining / Pending Chapters -->
+            <div class="bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+                <div class="flex items-center justify-between">
+                    <span class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500">Pending Chapters</span>
+                    <div class="w-7 h-7 rounded-lg bg-amber-500/10 text-amber-500 flex items-center justify-center">
+                        <i class="fa-solid fa-hourglass-half text-xs"></i>
+                    </div>
+                </div>
+                <div class="my-2 flex items-baseline gap-2">
+                    <span id="pendingChaptersCount" class="text-3xl font-extrabold text-amber-600 dark:text-amber-400">101</span>
+                    <span class="text-xs font-medium text-slate-400">Left to Complete</span>
+                </div>
+                <p class="text-[11px] text-slate-500 dark:text-slate-400">
+                    High Priority / Hard tagged: <span id="highPriorityCount" class="font-bold text-rose-500">0</span>
+                </p>
+            </div>
+
+            <!-- Card 4: Subject Mini-Summary -->
+            <div class="bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col justify-between">
+                <span class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-1.5">Subject Breakdown</span>
+                <div id="miniSubjectSummary" class="space-y-1.5 text-xs">
+                    <!-- Populated via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Subject Navigation Tabs + Search & Filter Bar -->
+        <section class="bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-4">
+            <div class="flex items-center justify-between">
+                <span class="text-[11px] font-extrabold uppercase tracking-wider text-slate-400 dark:text-slate-500 flex items-center gap-1.5">
+                    <i class="fa-solid fa-sliders text-emerald-500"></i> Subject Volume & Quick Switcher (Click Any Subject)
+                </span>
+                <span class="text-[11px] font-semibold text-slate-400 hidden sm:inline">Bottom volume bar fills up as chapters complete</span>
+            </div>
+            <!-- Subject Tabs with Volume Fill Bars -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2.5 pt-1" id="subjectTabs">
+                <!-- Populated by JS -->
+            </div>
+
+            <!-- Search, Status Filter, and Priority Filter -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-3 pt-2 border-t border-slate-100 dark:border-slate-800">
+                <!-- Search Input -->
+                <div class="md:col-span-5 relative">
+                    <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+                    <input
+                        type="text"
+                        id="searchInput"
+                        oninput="handleSearchAndFilter()"
+                        placeholder="Search chapter name (English or ଓଡ଼ିଆ)..."
+                        class="w-full pl-9 pr-8 py-2 text-sm rounded-xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-slate-800 dark:text-slate-100"
+                    >
+                    <button id="clearSearchBtn" onclick="clearSearch()" class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </button>
+                </div>
+
+                <!-- Status Filter Pills -->
+                <div class="md:col-span-5 flex flex-wrap items-center gap-1.5" id="statusFilterGroup">
+                    <button onclick="setStatusFilter('all')" data-filter="all" class="filter-btn px-3 py-1.5 text-xs font-semibold rounded-xl bg-emerald-600 text-white transition">
+                        All Chapters
+                    </button>
+                    <button onclick="setStatusFilter('pending')" data-filter="pending" class="filter-btn px-3 py-1.5 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition">
+                        Pending
+                    </button>
+                    <button onclick="setStatusFilter('completed')" data-filter="completed" class="filter-btn px-3 py-1.5 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition">
+                        Completed ✓
+                    </button>
+                    <button onclick="setStatusFilter('needsRevision')" data-filter="needsRevision" class="filter-btn px-3 py-1.5 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition">
+                        Needs Revision 🔄
+                    </button>
+                    <button onclick="setStatusFilter('revised3')" data-filter="revised3" class="filter-btn px-3 py-1.5 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition">
+                        Revised 3+ 🔥
+                    </button>
+                </div>
+
+                <!-- Expand/Collapse All -->
+                <div class="md:col-span-2 flex items-center justify-end gap-2">
+                    <button onclick="toggleAllSubjects(true)" class="px-2.5 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition" title="Expand All Subjects">
+                        <i class="fa-solid fa-angles-down mr-1"></i>Expand
+                    </button>
+                    <button onclick="toggleAllSubjects(false)" class="px-2.5 py-1.5 text-xs font-medium text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition" title="Collapse All Subjects">
+                        <i class="fa-solid fa-angles-up mr-1"></i>Collapse
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instructions Callout Banner -->
+        <div class="bg-indigo-500/10 border border-indigo-500/20 rounded-xl px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 text-xs text-indigo-950 dark:text-indigo-200">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-circle-info text-indigo-500"></i>
+                <span><strong>Tip:</strong> Tick chapters to mark completed, click <strong>R1–R5</strong> for revisions, or use <strong>+ Add New Subject</strong> and <strong>+ Add Chapter</strong> inside any subject to customize your study plan!</span>
+            </div>
+            <span class="text-[11px] font-semibold text-indigo-600 dark:text-indigo-400">Custom Subjects & Chapters Auto-Saved</span>
+        </div>
+
+        <!-- Subjects & Chapters Container -->
+        <section id="subjectsContainer" class="space-y-6">
+            <!-- Dynamically rendered via JavaScript -->
+        </section>
+
+    </main>
+
+    <!-- Add / Edit Subject Modal -->
+    <div id="subjectModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/70 backdrop-blur-sm p-4">
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl max-w-md w-full p-6 shadow-2xl space-y-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-500 flex items-center justify-center shrink-0">
+                        <i class="fa-solid fa-folder-plus text-lg"></i>
+                    </div>
+                    <div>
+                        <h3 id="subjectModalTitle" class="text-base font-bold text-slate-900 dark:text-white">Add New Subject</h3>
+                        <p class="text-xs text-slate-500 dark:text-slate-400">Create or edit a subject in your syllabus tracker</p>
+                    </div>
+                </div>
+                <button onclick="closeSubjectModal()" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+
+            <div class="space-y-3">
+                <input type="hidden" id="editSubjectId" value="">
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">Subject Name *</label>
+                    <input type="text" id="subjectTitleInput" placeholder="e.g., Mock Tests, Physical Standard Prep, Odisha GK Special" class="w-full px-3.5 py-2 text-sm rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">Short Tab Name</label>
+                        <input type="text" id="subjectShortInput" placeholder="e.g., Mock Tests" class="w-full px-3.5 py-2 text-sm rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">Subject Code</label>
+                        <input type="text" id="subjectCodeInput" placeholder="e.g., (vi) or EXTRA" class="w-full px-3.5 py-2 text-sm rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-3">
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">Theme Color</label>
+                        <select id="subjectAccentInput" class="w-full px-3 py-2 text-sm rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                            <option value="emerald">🟢 Emerald Green</option>
+                            <option value="sky">🔵 Sky Blue</option>
+                            <option value="amber">🟡 Amber Gold</option>
+                            <option value="violet">🟣 Violet Purple</option>
+                            <option value="rose">🔴 Rose Red</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">Icon</label>
+                        <select id="subjectIconInput" class="w-full px-3 py-2 text-sm rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                            <option value="fa-book-open">📖 Book</option>
+                            <option value="fa-trophy">🏆 Trophy / Mock</option>
+                            <option value="fa-language">🌐 Language</option>
+                            <option value="fa-earth-asia">🌏 GK / World</option>
+                            <option value="fa-calculator">🧮 Maths / Logic</option>
+                            <option value="fa-laptop-code">💻 Computer</option>
+                            <option value="fa-person-running">🏃 Physical / PET</option>
+                            <option value="fa-star">⭐ Special Topic</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="initialSectionRow">
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">Default Section / Category Title</label>
+                    <input type="text" id="subjectSectionInput" placeholder="e.g., Main Chapters & Topics" class="w-full px-3.5 py-2 text-sm rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                </div>
+            </div>
+
+            <div class="flex items-center justify-end gap-2 pt-2">
+                <button onclick="closeSubjectModal()" class="px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 transition">
+                    Cancel
+                </button>
+                <button onclick="saveSubjectFromModal()" class="px-4 py-2 text-xs font-bold rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white transition">
+                    Save Subject
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Chapter Modal -->
+    <div id="editChapterModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/70 backdrop-blur-sm p-4">
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl max-w-md w-full p-6 shadow-2xl space-y-4">
+            <div class="flex items-center justify-between">
+                <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                    <i class="fa-solid fa-pen-to-square text-indigo-500"></i> Edit Chapter
+                </h3>
+                <button onclick="closeEditChapterModal()" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <input type="hidden" id="editChapterSubjectId">
+            <input type="hidden" id="editChapterId">
+            <div class="space-y-3">
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">Chapter Name *</label>
+                    <input type="text" id="editChapterNameInput" class="w-full px-3.5 py-2 text-sm rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-1">Sub-Category / Section</label>
+                    <input type="text" id="editChapterSectionInput" class="w-full px-3.5 py-2 text-sm rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                </div>
+            </div>
+            <div class="flex items-center justify-end gap-2 pt-2">
+                <button onclick="closeEditChapterModal()" class="px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 transition">
+                    Cancel
+                </button>
+                <button onclick="saveEditedChapter()" class="px-4 py-2 text-xs font-bold rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white transition">
+                    Update Chapter
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Confirmation Modal (No browser alert/confirm used) -->
+    <div id="confirmModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-950/70 backdrop-blur-sm p-4">
+        <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl max-w-md w-full p-6 shadow-2xl space-y-4">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-rose-500/10 text-rose-500 flex items-center justify-center shrink-0">
+                    <i class="fa-solid fa-triangle-exclamation text-lg"></i>
+                </div>
+                <div>
+                    <h3 id="modalTitle" class="text-base font-bold text-slate-900 dark:text-white">Confirm Action</h3>
+                    <p id="modalDesc" class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Are you sure you want to proceed?</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-end gap-2 pt-2">
+                <button onclick="closeConfirmModal()" class="px-4 py-2 text-xs font-semibold rounded-xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 transition">
+                    Cancel
+                </button>
+                <button id="modalConfirmBtn" class="px-4 py-2 text-xs font-semibold rounded-xl bg-rose-600 hover:bg-rose-500 text-white transition">
+                    Confirm
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Toast Notification -->
+    <div id="toastBox" class="fixed bottom-5 right-5 z-50 hidden items-center gap-2.5 bg-slate-900 dark:bg-slate-800 text-white px-4 py-3 rounded-xl shadow-xl border border-slate-700 text-xs font-medium transition-all duration-300">
+        <i id="toastIcon" class="fa-solid fa-circle-check text-emerald-400 text-sm"></i>
+        <span id="toastMessage">Saved successfully!</span>
+    </div>
+
+    <script>
+        // ============================================================================
+        // 1. COMPLETE OFFICIAL SYLLABUS DATA (Advt. No. 01-CRE-2026/OUSSSC)
+        // ============================================================================
+        const DEFAULT_SYLLABUS_DATA = [
+            {
+                id: 'odia',
+                code: '(i)',
+                title: 'Odia Language (ଓଡ଼ିଆ ଭାଷା)',
+                shortTitle: 'Odia Language',
+                icon: 'fa-language',
+                accent: 'emerald',
+                sections: [
+                    {
+                        title: 'Odia Grammar & Comprehension (୨୬ ଗୋଟି ଅଧ୍ୟାୟ)',
+                        chapters: [
+                            { id: 'odia-1', num: 1, name: 'ଶବ୍ଦ (Shabda - Word Formation & Types)' },
+                            { id: 'odia-2', num: 2, name: 'ଲିଙ୍ଗ, ବଚନ, ପୁରୁଷ (Linga, Bachana, Purusha - Gender, Number, Person)' },
+                            { id: 'odia-3', num: 3, name: 'ବିଶେଷ୍ୟ (Bisheshya - Noun)' },
+                            { id: 'odia-4', num: 4, name: 'ବିଶେଷଣ (Bisheshana - Adjective)' },
+                            { id: 'odia-5', num: 5, name: 'ସର୍ବନାମ (Sarbanama - Pronoun)' },
+                            { id: 'odia-6', num: 6, name: 'ପ୍ରତିଶବ୍ଦ (Pratishabda - Synonyms)' },
+                            { id: 'odia-7', num: 7, name: 'ବିପରୀତାର୍ଥବୋଧକ ଶବ୍ଦ (Biparita Shabda - Antonyms)' },
+                            { id: 'odia-8', num: 8, name: 'ସମୋଚ୍ଚାରିତ ଭିନ୍ନାର୍ଥକ ଶବ୍ଦ (Homophones / Similar Sounding Words)' },
+                            { id: 'odia-9', num: 9, name: 'ଅନେକାର୍ଥବୋଧକ ଶବ୍ଦ (Polysemous / Multiple Meaning Words)' },
+                            { id: 'odia-10', num: 10, name: 'କାରକ ଓ ବିଭକ୍ତି (Karaka o Bibhakti - Case & Case Endings)' },
+                            { id: 'odia-11', num: 11, name: 'ଅବ୍ୟୟ (Abyaya - Indeclinable)' },
+                            { id: 'odia-12', num: 12, name: 'ପ୍ରତ୍ୟୟ / ଉପସର୍ଗ (Affixes / Prefixes)' },
+                            { id: 'odia-13', num: 13, name: 'କ୍ରିୟା (Kriya - Verb)' },
+                            { id: 'odia-14', num: 14, name: 'ଣତ୍ୱ ବିଧି ଓ ଷତ୍ୱ ବିଧି (Natwa Bidhi o Satwa Bidhi)' },
+                            { id: 'odia-15', num: 15, name: 'ସନ୍ଧି (Sandhi - Joining of Words)' },
+                            { id: 'odia-16', num: 16, name: 'ସମାସ (Samasa - Compound Words)' },
+                            { id: 'odia-17', num: 17, name: 'କୃଦନ୍ତ (Krudanta - Verbal Derivatives)' },
+                            { id: 'odia-18', num: 18, name: 'ତଦ୍ଧିତ (Taddhita - Nominal Derivatives)' },
+                            { id: 'odia-19', num: 19, name: 'ପଦ ପରିବର୍ତ୍ତନ (Pada Paribartana - Parts of Speech Transformation)' },
+                            { id: 'odia-20', num: 20, name: 'ବାକ୍ୟ (Bakya - Sentence Structure & Types)' },
+                            { id: 'odia-21', num: 21, name: 'ପ୍ରତ୍ୟକ୍ଷୋକ୍ତି ଓ ପରୋକ୍ଷୋକ୍ତି (Direct & Indirect Speech)' },
+                            { id: 'odia-22', num: 22, name: 'କ୍ରିୟାର ବାଚ୍ୟ (Voice of Verbs - Active/Passive)' },
+                            { id: 'odia-23', num: 23, name: 'ରୂଢ଼ି ପ୍ରୟୋଗ (Rudhi Prayoga - Idioms & Usage)' },
+                            { id: 'odia-24', num: 24, name: 'ଲୋକବାଣୀ (Lokabani - Proverbs)' },
+                            { id: 'odia-25', num: 25, name: 'ସାଧାରଣ ଅଶୁଦ୍ଧି (Sadharana Ashuddhi - Common Errors & Spelling)' },
+                            { id: 'odia-26', num: 26, name: 'ପ୍ରଦତ୍ତ ପରିଚ୍ଛେଦର ଅର୍ଥବୋଧ (Reading Comprehension of Given Passage)' }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'english',
+                code: '(ii)',
+                title: 'English Language',
+                shortTitle: 'English',
+                icon: 'fa-spell-check',
+                accent: 'sky',
+                sections: [
+                    {
+                        title: 'English Grammar, Vocabulary & Comprehension',
+                        chapters: [
+                            { id: 'eng-1', num: 1, name: 'Vocabulary' },
+                            { id: 'eng-2', num: 2, name: 'Synonyms and Antonyms' },
+                            { id: 'eng-3', num: 3, name: 'One-word Substitution' },
+                            { id: 'eng-4', num: 4, name: 'Idioms and Phrases' },
+                            { id: 'eng-5', num: 5, name: 'Grammar and Usage' },
+                            { id: 'eng-6', num: 6, name: 'Articles and Determiners' },
+                            { id: 'eng-7', num: 7, name: 'Prepositions' },
+                            { id: 'eng-8', num: 8, name: 'Tenses' },
+                            { id: 'eng-9', num: 9, name: 'Subject-Verb Agreement' },
+                            { id: 'eng-10', num: 10, name: 'Active and Passive Voice' },
+                            { id: 'eng-11', num: 11, name: 'Direct and Indirect Speech' },
+                            { id: 'eng-12', num: 12, name: 'Sentence Correction' },
+                            { id: 'eng-13', num: 13, name: 'Error Detection' },
+                            { id: 'eng-14', num: 14, name: 'Rearrangement of Sentences' },
+                            { id: 'eng-15', num: 15, name: 'Comprehension of a given passage' }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'gk',
+                code: '(iii)',
+                title: 'General Knowledge (GK)',
+                shortTitle: 'General Knowledge',
+                icon: 'fa-earth-asia',
+                accent: 'amber',
+                sections: [
+                    {
+                        title: '(a) Current Affairs',
+                        chapters: [
+                            { id: 'gk-ca-1', num: 1, name: 'State Events (Odisha Current Affairs)' },
+                            { id: 'gk-ca-2', num: 2, name: 'National / International Events' },
+                            { id: 'gk-ca-3', num: 3, name: 'Sports' },
+                            { id: 'gk-ca-4', num: 4, name: 'Awards and Honours' },
+                            { id: 'gk-ca-5', num: 5, name: 'Important Days' },
+                            { id: 'gk-ca-6', num: 6, name: 'Books and Authors' },
+                            { id: 'gk-ca-7', num: 7, name: 'Science and Recent Technology Developments' }
+                        ]
+                    },
+                    {
+                        title: '(b) History',
+                        chapters: [
+                            { id: 'gk-his-1', num: 8, name: 'Ancient India' },
+                            { id: 'gk-his-2', num: 9, name: 'Medieval India' },
+                            { id: 'gk-his-3', num: 10, name: 'Modern India' },
+                            { id: 'gk-his-4', num: 11, name: 'Indian National Movement' },
+                            { id: 'gk-his-5', num: 12, name: 'History and Cultural Heritage of Odisha' }
+                        ]
+                    },
+                    {
+                        title: '(c) Geography',
+                        chapters: [
+                            { id: 'gk-geo-1', num: 13, name: 'Physical Geography of India' },
+                            { id: 'gk-geo-2', num: 14, name: 'Natural Resources of India' },
+                            { id: 'gk-geo-3', num: 15, name: 'Agriculture of India' },
+                            { id: 'gk-geo-4', num: 16, name: 'Physical and Economic Geography of Odisha' }
+                        ]
+                    },
+                    {
+                        title: '(d) Polity',
+                        chapters: [
+                            { id: 'gk-pol-1', num: 17, name: 'Constitution of India' },
+                            { id: 'gk-pol-2', num: 18, name: 'Fundamental Rights and Duties' },
+                            { id: 'gk-pol-3', num: 19, name: 'Directive Principles of State Policy (DPSP)' },
+                            { id: 'gk-pol-4', num: 20, name: 'Union and State Governments' },
+                            { id: 'gk-pol-5', num: 21, name: 'Local Self-Government (Panchayati Raj & Municipalities)' }
+                        ]
+                    },
+                    {
+                        title: '(e) Economy',
+                        chapters: [
+                            { id: 'gk-eco-1', num: 22, name: 'Basics of Indian Economy' },
+                            { id: 'gk-eco-2', num: 23, name: 'Economic Development' }
+                        ]
+                    },
+                    {
+                        title: '(f) General Science',
+                        chapters: [
+                            { id: 'gk-sci-1', num: 24, name: 'Everyday Science' },
+                            { id: 'gk-sci-2', num: 25, name: 'Physics, Chemistry and Biology up to Class X level' },
+                            { id: 'gk-sci-3', num: 26, name: 'Environmental Science' }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'math_reasoning',
+                code: '(iv)',
+                title: 'Quantitative Aptitude & Reasoning',
+                shortTitle: 'Maths & Reasoning',
+                icon: 'fa-calculator',
+                accent: 'violet',
+                sections: [
+                    {
+                        title: '(a) Quantitative Aptitude',
+                        chapters: [
+                            { id: 'math-1', num: 1, name: 'Number System' },
+                            { id: 'math-2', num: 2, name: 'Simplification' },
+                            { id: 'math-3', num: 3, name: 'Decimals and Fractions' },
+                            { id: 'math-4', num: 4, name: 'HCF and LCM' },
+                            { id: 'math-5', num: 5, name: 'Percentage' },
+                            { id: 'math-6', num: 6, name: 'Ratio and Proportion' },
+                            { id: 'math-7', num: 7, name: 'Average' },
+                            { id: 'math-8', num: 8, name: 'Profit and Loss' },
+                            { id: 'math-9', num: 9, name: 'Simple Interest' },
+                            { id: 'math-10', num: 10, name: 'Mensuration' },
+                            { id: 'math-11', num: 11, name: 'Time and Work' },
+                            { id: 'math-12', num: 12, name: 'Time, Speed and Distance' },
+                            { id: 'math-13', num: 13, name: 'Data Interpretation (Basic Tables and Charts)' }
+                        ]
+                    },
+                    {
+                        title: '(b.1) Verbal Reasoning',
+                        chapters: [
+                            { id: 'reas-v-1', num: 14, name: 'Analogy' },
+                            { id: 'reas-v-2', num: 15, name: 'Classification' },
+                            { id: 'reas-v-3', num: 16, name: 'Series' },
+                            { id: 'reas-v-4', num: 17, name: 'Coding-Decoding' },
+                            { id: 'reas-v-5', num: 18, name: 'Blood Relations' },
+                            { id: 'reas-v-6', num: 19, name: 'Direction Sense' },
+                            { id: 'reas-v-7', num: 20, name: 'Order and Ranking' }
+                        ]
+                    },
+                    {
+                        title: '(b.2) Non-Verbal Reasoning',
+                        chapters: [
+                            { id: 'reas-nv-1', num: 21, name: 'Pattern Recognition' },
+                            { id: 'reas-nv-2', num: 22, name: 'Figure Analogy' },
+                            { id: 'reas-nv-3', num: 23, name: 'Figure Classification' },
+                            { id: 'reas-nv-4', num: 24, name: 'Mirror and Water Images' }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: 'computer',
+                code: '(v)',
+                title: 'Basic Computer Literacy',
+                shortTitle: 'Computer Literacy',
+                icon: 'fa-laptop-code',
+                accent: 'rose',
+                sections: [
+                    {
+                        title: 'Computer Fundamentals & Digital Awareness',
+                        chapters: [
+                            { id: 'comp-1', num: 1, name: 'Basics of Computers' },
+                            { id: 'comp-2', num: 2, name: 'Computer Hardware and Software' },
+                            { id: 'comp-3', num: 3, name: 'Operating Systems' },
+                            { id: 'comp-4', num: 4, name: 'Input and Output Devices' },
+                            { id: 'comp-5', num: 5, name: 'MS Office Basics (Word, Excel, PowerPoint)' },
+                            { id: 'comp-6', num: 6, name: 'Internet and E-mail' },
+                            { id: 'comp-7', num: 7, name: 'Digital Payment Systems (UPI, AEPS, NetBanking)' },
+                            { id: 'comp-8', num: 8, name: 'Cyber Safety' },
+                            { id: 'comp-9', num: 9, name: 'Social Media Awareness' },
+                            { id: 'comp-10', num: 10, name: 'Basic Government Digital Services' }
+                        ]
+                    }
+                ]
+            }
+        ];
+
+        let SYLLABUS_DATA = [];
+
+        // ============================================================================
+        // 2. STATE MANAGEMENT & LOCALSTORAGE PERSISTENCE
+        // ============================================================================
+        const STORAGE_KEY = 'ousssc_constable_2026_tracker_v1';
+        const SYLLABUS_STORAGE_KEY = 'ousssc_constable_2026_custom_syllabus_v1';
+        const THEME_KEY = 'ousssc_constable_theme';
+        const APP_COLOR_THEME_KEY = 'ousssc_constable_color_theme_v1';
+
+        // userProgress[chapterId] = { completed: boolean, revisions: number, tag: string, note: string }
+        let userProgress = {};
+        let activeSubjectTab = 'all'; // 'all' or subject.id
+        let activeStatusFilter = 'all'; // 'all', 'pending', 'completed', 'needsRevision', 'revised3'
+        let collapsedSubjects = {}; // subjectId: boolean
+        let openAddChapterForms = {}; // subjectId: boolean
+        let currentAppColorTheme = 'emerald'; // 'emerald', 'royal', 'sunset', 'ocean', 'gold'
+
+        function renumberSubjectChapters(subject) {
+            let counter = 1;
+            subject.sections.forEach(sec => {
+                sec.chapters.forEach(ch => {
+                    ch.num = counter++;
+                });
+            });
+        }
+
+        function loadState() {
+            try {
+                const rawSyllabus = localStorage.getItem(SYLLABUS_STORAGE_KEY);
+                if (rawSyllabus) {
+                    const parsed = JSON.parse(rawSyllabus);
+                    if (Array.isArray(parsed) && parsed.length > 0) {
+                        SYLLABUS_DATA = parsed;
+                    } else {
+                        SYLLABUS_DATA = JSON.parse(JSON.stringify(DEFAULT_SYLLABUS_DATA));
+                    }
+                } else {
+                    SYLLABUS_DATA = JSON.parse(JSON.stringify(DEFAULT_SYLLABUS_DATA));
+                }
+            } catch (e) {
+                console.error('Failed to read custom syllabus from localStorage:', e);
+                SYLLABUS_DATA = JSON.parse(JSON.stringify(DEFAULT_SYLLABUS_DATA));
+            }
+
+            try {
+                const raw = localStorage.getItem(STORAGE_KEY);
+                if (raw) {
+                    userProgress = JSON.parse(raw) || {};
+                }
+            } catch (e) {
+                console.error('Failed to read progress from localStorage:', e);
+                userProgress = {};
+            }
+
+            // Load dark/light mode
+            const savedTheme = localStorage.getItem(THEME_KEY);
+            if (savedTheme === 'light') {
+                document.documentElement.classList.remove('dark');
+            } else {
+                document.documentElement.classList.add('dark');
+            }
+            updateThemeIcon();
+
+            // Load 5-Color Fancy App Theme
+            const savedColorTheme = localStorage.getItem(APP_COLOR_THEME_KEY) || 'emerald';
+            applyAppColorTheme(savedColorTheme, false);
+        }
+
+        function setAppColorTheme(themeName) {
+            applyAppColorTheme(themeName, true);
+        }
+
+        function applyAppColorTheme(themeName, showNotification = true) {
+            currentAppColorTheme = themeName;
+            document.documentElement.setAttribute('data-app-theme', themeName);
+            localStorage.setItem(APP_COLOR_THEME_KEY, themeName);
+
+            document.querySelectorAll('[data-theme-swatch]').forEach(btn => {
+                if (btn.getAttribute('data-theme-swatch') === themeName) {
+                    btn.classList.add('theme-swatch-active');
+                } else {
+                    btn.classList.remove('theme-swatch-active');
+                }
+            });
+
+            if (showNotification) {
+                const names = {
+                    emerald: 'Emerald Command',
+                    royal: 'Royal Indigo',
+                    sunset: 'Cyber Sunset',
+                    ocean: 'Ocean Breeze',
+                    gold: 'Imperial Gold'
+                };
+                showToast(`Theme switched to ${names[themeName] || themeName}! ✨`);
+                renderAll();
+            }
+        }
+
+        function saveState(feedbackMsg = 'Saved to Browser ✓') {
+            try {
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(userProgress));
+                localStorage.setItem(SYLLABUS_STORAGE_KEY, JSON.stringify(SYLLABUS_DATA));
+                triggerSaveBadge(feedbackMsg);
+            } catch (e) {
+                console.error('Failed to save to localStorage:', e);
+            }
+        }
+
+        function getChapterState(chapterId) {
+            if (!userProgress[chapterId]) {
+                userProgress[chapterId] = {
+                    completed: false,
+                    revisions: 0,
+                    tag: 'none', // 'none', 'easy', 'medium', 'hard'
+                    note: ''
+                };
+            }
+            return userProgress[chapterId];
+        }
+
+        function triggerSaveBadge(text) {
+            const indicator = document.getElementById('saveIndicator');
+            const saveText = document.getElementById('saveText');
+            if (!indicator || !saveText) return;
+            saveText.textContent = text;
+            indicator.classList.add('scale-105');
+            setTimeout(() => {
+                indicator.classList.remove('scale-105');
+            }, 250);
+        }
+
+        function showToast(message, isSuccess = true) {
+            const box = document.getElementById('toastBox');
+            const msg = document.getElementById('toastMessage');
+            const icon = document.getElementById('toastIcon');
+            msg.textContent = message;
+            icon.className = isSuccess
+                ? 'fa-solid fa-circle-check text-emerald-400 text-sm'
+                : 'fa-solid fa-triangle-exclamation text-amber-400 text-sm';
+            box.classList.remove('hidden');
+            box.classList.add('flex');
+            clearTimeout(window.toastTimer);
+            window.toastTimer = setTimeout(() => {
+                box.classList.add('hidden');
+                box.classList.remove('flex');
+            }, 2600);
+        }
+
+        // ============================================================================
+        // 3. INTERACTIVE HANDLERS (COMPLETE, REVISIONS, TAGS, NOTES)
+        // ============================================================================
+        function toggleChapterComplete(chapterId) {
+            const st = getChapterState(chapterId);
+            st.completed = !st.completed;
+            // If user marks completed for the first time and revisions is 0, keep revisions as is so they can track revisions separately
+            saveState();
+            renderAll();
+        }
+
+        function handleRevisionPillClick(chapterId, pillNumber) {
+            const st = getChapterState(chapterId);
+            // If clicking the exact current revision level, toggle it down by 1; otherwise set to pillNumber
+            if (st.revisions === pillNumber) {
+                st.revisions = pillNumber - 1;
+            } else {
+                st.revisions = pillNumber;
+                // Automatically mark chapter completed if they revise it!
+                st.completed = true;
+            }
+            saveState(`Revision R${st.revisions} Saved ✓`);
+            renderAll();
+        }
+
+        function adjustRevisionCount(chapterId, delta) {
+            const st = getChapterState(chapterId);
+            const nextVal = Math.max(0, (st.revisions || 0) + delta);
+            st.revisions = nextVal;
+            if (nextVal > 0) {
+                st.completed = true;
+            }
+            saveState(`Revisions: ${nextVal} Saved ✓`);
+            renderAll();
+        }
+
+        function updateChapterTag(chapterId, newTag) {
+            const st = getChapterState(chapterId);
+            st.tag = newTag;
+            saveState('Priority Tag Saved ✓');
+            renderAll();
+        }
+
+        function toggleNoteInput(chapterId) {
+            const row = document.getElementById(`note-box-${chapterId}`);
+            if (row) {
+                row.classList.toggle('hidden');
+                const input = document.getElementById(`note-input-${chapterId}`);
+                if (input && !row.classList.contains('hidden')) {
+                    input.focus();
+                }
+            }
+        }
+
+        function saveChapterNote(chapterId, val) {
+            const st = getChapterState(chapterId);
+            st.note = val.trim();
+            saveState('Chapter Note Saved ✓');
+        }
+
+        // Subject-level Bulk Actions
+        function markSubjectAllCompleted(subjectId) {
+            const subj = SYLLABUS_DATA.find(s => s.id === subjectId);
+            if (!subj) return;
+            subj.sections.forEach(sec => {
+                sec.chapters.forEach(ch => {
+                    const st = getChapterState(ch.id);
+                    st.completed = true;
+                });
+            });
+            saveState(`${subj.shortTitle} Marked Completed ✓`);
+            renderAll();
+            showToast(`All chapters in ${subj.shortTitle} marked as completed!`);
+        }
+
+        function resetSubjectProgress(subjectId) {
+            const subj = SYLLABUS_DATA.find(s => s.id === subjectId);
+            if (!subj) return;
+            subj.sections.forEach(sec => {
+                sec.chapters.forEach(ch => {
+                    userProgress[ch.id] = { completed: false, revisions: 0, tag: 'none', note: '' };
+                });
+            });
+            saveState(`${subj.shortTitle} Reset ✓`);
+            renderAll();
+            showToast(`${subj.shortTitle} progress has been reset.`, false);
+        }
+
+        // ============================================================================
+        // 3B. CUSTOM SUBJECT & CHAPTER MANAGEMENT (ADD / EDIT / DELETE)
+        // ============================================================================
+        function openAddSubjectModal(editSubjectId = null) {
+            const modal = document.getElementById('subjectModal');
+            const titleEl = document.getElementById('subjectModalTitle');
+            const idInput = document.getElementById('editSubjectId');
+            const titleInput = document.getElementById('subjectTitleInput');
+            const shortInput = document.getElementById('subjectShortInput');
+            const codeInput = document.getElementById('subjectCodeInput');
+            const accentInput = document.getElementById('subjectAccentInput');
+            const iconInput = document.getElementById('subjectIconInput');
+            const sectionRow = document.getElementById('initialSectionRow');
+            const sectionInput = document.getElementById('subjectSectionInput');
+
+            if (editSubjectId) {
+                const subj = SYLLABUS_DATA.find(s => s.id === editSubjectId);
+                if (!subj) return;
+                titleEl.textContent = 'Edit Subject';
+                idInput.value = subj.id;
+                titleInput.value = subj.title;
+                shortInput.value = subj.shortTitle;
+                codeInput.value = subj.code;
+                accentInput.value = subj.accent || 'emerald';
+                iconInput.value = subj.icon || 'fa-book-open';
+                sectionRow.classList.add('hidden');
+            } else {
+                titleEl.textContent = 'Add New Subject';
+                idInput.value = '';
+                titleInput.value = '';
+                shortInput.value = '';
+                codeInput.value = `(${SYLLABUS_DATA.length + 1})`;
+                accentInput.value = 'emerald';
+                iconInput.value = 'fa-book-open';
+                sectionInput.value = 'Main Topics & Chapters';
+                sectionRow.classList.remove('hidden');
+            }
+
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            setTimeout(() => titleInput.focus(), 50);
+        }
+
+        function closeSubjectModal() {
+            const modal = document.getElementById('subjectModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function saveSubjectFromModal() {
+            const editId = document.getElementById('editSubjectId').value.trim();
+            const title = document.getElementById('subjectTitleInput').value.trim();
+            const shortTitle = document.getElementById('subjectShortInput').value.trim() || title;
+            const code = document.getElementById('subjectCodeInput').value.trim() || 'EXTRA';
+            const accent = document.getElementById('subjectAccentInput').value;
+            const icon = document.getElementById('subjectIconInput').value;
+            const initialSection = document.getElementById('subjectSectionInput').value.trim() || 'Chapters & Topics';
+
+            if (!title) {
+                showToast('Please enter a Subject Name!', false);
+                return;
+            }
+
+            if (editId) {
+                const subj = SYLLABUS_DATA.find(s => s.id === editId);
+                if (subj) {
+                    subj.title = title;
+                    subj.shortTitle = shortTitle;
+                    subj.code = code;
+                    subj.accent = accent;
+                    subj.icon = icon;
+                    saveState('Subject Updated ✓');
+                    showToast(`Updated subject "${shortTitle}"`);
+                }
+            } else {
+                const newId = 'subj_' + Date.now();
+                SYLLABUS_DATA.push({
+                    id: newId,
+                    code: code,
+                    title: title,
+                    shortTitle: shortTitle,
+                    icon: icon,
+                    accent: accent,
+                    sections: [
+                        {
+                            title: initialSection,
+                            chapters: []
+                        }
+                    ]
+                });
+                openAddChapterForms[newId] = true; // Auto-open Add Chapter form for convenience
+                activeSubjectTab = newId;
+                saveState('New Subject Added ✓');
+                showToast(`Subject "${shortTitle}" created! Now add chapters below.`);
+            }
+
+            closeSubjectModal();
+            renderAll();
+        }
+
+        function deleteSubject(subjectId) {
+            const idx = SYLLABUS_DATA.findIndex(s => s.id === subjectId);
+            if (idx === -1) return;
+            const removed = SYLLABUS_DATA.splice(idx, 1)[0];
+            if (activeSubjectTab === subjectId) {
+                activeSubjectTab = 'all';
+            }
+            saveState('Subject Deleted ✓');
+            renderAll();
+            showToast(`Deleted subject "${removed.shortTitle}".`, false);
+        }
+
+        function toggleAddChapterForm(subjectId) {
+            openAddChapterForms[subjectId] = !openAddChapterForms[subjectId];
+            renderSubjects();
+            if (openAddChapterForms[subjectId]) {
+                setTimeout(() => {
+                    const inp = document.getElementById(`new-chap-name-${subjectId}`);
+                    if (inp) inp.focus();
+                }, 50);
+            }
+        }
+
+        function addChapterToSubject(subjectId) {
+            const subj = SYLLABUS_DATA.find(s => s.id === subjectId);
+            if (!subj) return;
+
+            const nameInput = document.getElementById(`new-chap-name-${subjectId}`);
+            const secSelect = document.getElementById(`new-chap-sec-${subjectId}`);
+            const customSecInput = document.getElementById(`new-chap-custom-sec-${subjectId}`);
+            const prioritySelect = document.getElementById(`new-chap-tag-${subjectId}`);
+
+            const chapName = (nameInput ? nameInput.value : '').trim();
+            if (!chapName) {
+                showToast('Please enter a Chapter Name!', false);
+                if (nameInput) nameInput.focus();
+                return;
+            }
+
+            let targetSectionTitle = secSelect ? secSelect.value : '';
+            if (targetSectionTitle === '__NEW__' || !targetSectionTitle) {
+                targetSectionTitle = (customSecInput ? customSecInput.value : '').trim() || 'Additional Topics';
+            }
+
+            let sectionObj = subj.sections.find(sec => sec.title.toLowerCase() === targetSectionTitle.toLowerCase());
+            if (!sectionObj) {
+                sectionObj = { title: targetSectionTitle, chapters: [] };
+                subj.sections.push(sectionObj);
+            }
+
+            const newChapId = `${subjectId}_ch_${Date.now()}`;
+            sectionObj.chapters.push({
+                id: newChapId,
+                num: 0,
+                name: chapName
+            });
+
+            renumberSubjectChapters(subj);
+
+            const initialTag = prioritySelect ? prioritySelect.value : 'none';
+            userProgress[newChapId] = {
+                completed: false,
+                revisions: 0,
+                tag: initialTag,
+                note: ''
+            };
+
+            collapsedSubjects[subjectId] = false;
+            saveState('New Chapter Added ✓');
+            renderAll();
+            showToast(`Added chapter "${chapName}" to ${subj.shortTitle}!`);
+        }
+
+        function openEditChapterModal(subjectId, chapterId) {
+            const subj = SYLLABUS_DATA.find(s => s.id === subjectId);
+            if (!subj) return;
+
+            let foundChapter = null;
+            let foundSectionTitle = '';
+
+            subj.sections.forEach(sec => {
+                const ch = sec.chapters.find(c => c.id === chapterId);
+                if (ch) {
+                    foundChapter = ch;
+                    foundSectionTitle = sec.title;
+                }
+            });
+
+            if (!foundChapter) return;
+
+            document.getElementById('editChapterSubjectId').value = subjectId;
+            document.getElementById('editChapterId').value = chapterId;
+            document.getElementById('editChapterNameInput').value = foundChapter.name;
+            document.getElementById('editChapterSectionInput').value = foundSectionTitle;
+
+            const modal = document.getElementById('editChapterModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            setTimeout(() => document.getElementById('editChapterNameInput').focus(), 50);
+        }
+
+        function closeEditChapterModal() {
+            const modal = document.getElementById('editChapterModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function saveEditedChapter() {
+            const subjectId = document.getElementById('editChapterSubjectId').value;
+            const chapterId = document.getElementById('editChapterId').value;
+            const newName = document.getElementById('editChapterNameInput').value.trim();
+            const newSectionTitle = document.getElementById('editChapterSectionInput').value.trim() || 'General Topics';
+
+            if (!newName) {
+                showToast('Chapter name cannot be empty!', false);
+                return;
+            }
+
+            const subj = SYLLABUS_DATA.find(s => s.id === subjectId);
+            if (!subj) return;
+
+            let currentSection = null;
+            let chapterObj = null;
+            let chapterIdx = -1;
+
+            subj.sections.forEach(sec => {
+                const idx = sec.chapters.findIndex(c => c.id === chapterId);
+                if (idx !== -1) {
+                    currentSection = sec;
+                    chapterObj = sec.chapters[idx];
+                    chapterIdx = idx;
+                }
+            });
+
+            if (!chapterObj) return;
+            chapterObj.name = newName;
+
+            if (currentSection.title !== newSectionTitle) {
+                currentSection.chapters.splice(chapterIdx, 1);
+                if (currentSection.chapters.length === 0 && subj.sections.length > 1) {
+                    subj.sections = subj.sections.filter(s => s !== currentSection);
+                }
+                let targetSec = subj.sections.find(s => s.title.toLowerCase() === newSectionTitle.toLowerCase());
+                if (!targetSec) {
+                    targetSec = { title: newSectionTitle, chapters: [] };
+                    subj.sections.push(targetSec);
+                }
+                targetSec.chapters.push(chapterObj);
+            }
+
+            renumberSubjectChapters(subj);
+            saveState('Chapter Updated ✓');
+            closeEditChapterModal();
+            renderAll();
+            showToast('Chapter updated successfully!');
+        }
+
+        function deleteChapter(subjectId, chapterId) {
+            const subj = SYLLABUS_DATA.find(s => s.id === subjectId);
+            if (!subj) return;
+
+            subj.sections.forEach(sec => {
+                const idx = sec.chapters.findIndex(c => c.id === chapterId);
+                if (idx !== -1) {
+                    sec.chapters.splice(idx, 1);
+                }
+            });
+
+            // Clean up empty sections if there is more than 1 section
+            if (subj.sections.length > 1) {
+                subj.sections = subj.sections.filter(sec => sec.chapters.length > 0);
+            }
+
+            renumberSubjectChapters(subj);
+            saveState('Chapter Deleted ✓');
+            renderAll();
+            showToast('Chapter removed from syllabus.', false);
+        }
+
+        // ============================================================================
+        // 4. CALCULATIONS & DASHBOARD STATS
+        // ============================================================================
+        function calculateSubjectStats(subject) {
+            let total = 0;
+            let completed = 0;
+            let revisions = 0;
+            subject.sections.forEach(sec => {
+                sec.chapters.forEach(ch => {
+                    total++;
+                    const st = getChapterState(ch.id);
+                    if (st.completed) completed++;
+                    revisions += (st.revisions || 0);
+                });
+            });
+            const percent = total > 0 ? Math.round((completed / total) * 100) : 0;
+            return { total, completed, revisions, percent };
+        }
+
+        function updateOverallDashboard() {
+            let grandTotal = 0;
+            let grandCompleted = 0;
+            let grandRevisions = 0;
+            let mastered3Plus = 0;
+            let highPriority = 0;
+
+            const miniSummaryHTML = [];
+
+            SYLLABUS_DATA.forEach(subject => {
+                const stats = calculateSubjectStats(subject);
+                grandTotal += stats.total;
+                grandCompleted += stats.completed;
+                grandRevisions += stats.revisions;
+
+                subject.sections.forEach(sec => {
+                    sec.chapters.forEach(ch => {
+                        const st = getChapterState(ch.id);
+                        if ((st.revisions || 0) >= 3) mastered3Plus++;
+                        if (st.tag === 'hard') highPriority++;
+                    });
+                });
+
+                miniSummaryHTML.push(`
+                    <div class="flex items-center justify-between gap-2">
+                        <span class="truncate text-slate-600 dark:text-slate-300 font-medium">${subject.shortTitle}</span>
+                        <div class="flex items-center gap-2 shrink-0">
+                            <span class="text-[11px] font-bold text-slate-800 dark:text-slate-200">${stats.completed}/${stats.total}</span>
+                            <span class="w-10 text-right text-[11px] font-bold text-emerald-600 dark:text-emerald-400">${stats.percent}%</span>
+                        </div>
+                    </div>
+                `);
+            });
+
+            const grandPercent = grandTotal > 0 ? Math.round((grandCompleted / grandTotal) * 100) : 0;
+
+            document.getElementById('overallCompletedCount').textContent = grandCompleted;
+            document.getElementById('overallTotalCount').textContent = grandTotal;
+            document.getElementById('overallPercentBadge').textContent = `${grandPercent}%`;
+            document.getElementById('overallProgressBar').style.width = `${grandPercent}%`;
+
+            document.getElementById('totalRevisionsCount').textContent = grandRevisions;
+            document.getElementById('masteredChaptersCount').textContent = mastered3Plus;
+            document.getElementById('pendingChaptersCount').textContent = grandTotal - grandCompleted;
+            document.getElementById('highPriorityCount').textContent = highPriority;
+
+            document.getElementById('miniSubjectSummary').innerHTML = miniSummaryHTML.join('');
+        }
+
+        // ============================================================================
+        // 5. RENDERING UI (TABS, SUBJECT CARDS, CHAPTER ROWS)
+        // ============================================================================
+        const ACCENT_STYLES = {
+            emerald: {
+                badge: 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/20',
+                bar: 'from-emerald-500 to-teal-400',
+                iconBg: 'bg-emerald-500/10 text-emerald-500',
+                borderActive: 'border-emerald-500 dark:border-emerald-400 ring-2 ring-emerald-500/20',
+                softFill: 'bg-emerald-500/10 dark:bg-emerald-500/15',
+                textAccent: 'text-emerald-600 dark:text-emerald-400'
+            },
+            sky: {
+                badge: 'bg-sky-500/10 text-sky-600 dark:text-sky-400 border-sky-500/20',
+                bar: 'from-sky-500 to-cyan-400',
+                iconBg: 'bg-sky-500/10 text-sky-500',
+                borderActive: 'border-sky-500 dark:border-sky-400 ring-2 ring-sky-500/20',
+                softFill: 'bg-sky-500/10 dark:bg-sky-500/15',
+                textAccent: 'text-sky-600 dark:text-sky-400'
+            },
+            amber: {
+                badge: 'bg-amber-500/10 text-amber-600 dark:text-amber-400 border-amber-500/20',
+                bar: 'from-amber-500 to-yellow-400',
+                iconBg: 'bg-amber-500/10 text-amber-500',
+                borderActive: 'border-amber-500 dark:border-amber-400 ring-2 ring-amber-500/20',
+                softFill: 'bg-amber-500/10 dark:bg-amber-500/15',
+                textAccent: 'text-amber-600 dark:text-amber-400'
+            },
+            violet: {
+                badge: 'bg-violet-500/10 text-violet-600 dark:text-violet-400 border-violet-500/20',
+                bar: 'from-violet-500 to-fuchsia-400',
+                iconBg: 'bg-violet-500/10 text-violet-500',
+                borderActive: 'border-violet-500 dark:border-violet-400 ring-2 ring-violet-500/20',
+                softFill: 'bg-violet-500/10 dark:bg-violet-500/15',
+                textAccent: 'text-violet-600 dark:text-violet-400'
+            },
+            rose: {
+                badge: 'bg-rose-500/10 text-rose-600 dark:text-rose-400 border-rose-500/20',
+                bar: 'from-rose-500 to-pink-400',
+                iconBg: 'bg-rose-500/10 text-rose-500',
+                borderActive: 'border-rose-500 dark:border-rose-400 ring-2 ring-rose-500/20',
+                softFill: 'bg-rose-500/10 dark:bg-rose-500/15',
+                textAccent: 'text-rose-600 dark:text-rose-400'
+            }
+        };
+
+        function renderSubjectTabs() {
+            const container = document.getElementById('subjectTabs');
+            let grandTotal = 0;
+            let grandCompleted = 0;
+            SYLLABUS_DATA.forEach(s => {
+                const st = calculateSubjectStats(s);
+                grandTotal += st.total;
+                grandCompleted += st.completed;
+            });
+            const grandPercent = grandTotal > 0 ? Math.round((grandCompleted / grandTotal) * 100) : 0;
+
+            // "All Subjects" Master Volume Button
+            let html = `
+                <button onclick="selectSubjectTab('all')" class="relative overflow-hidden text-left p-3 rounded-xl border transition-all duration-300 flex flex-col justify-between gap-2 ${
+                    activeSubjectTab === 'all'
+                        ? 'bg-slate-900 text-white dark:bg-slate-800 dark:text-white border-emerald-500 shadow-md theme-glow-card'
+                        : 'bg-slate-50/90 dark:bg-slate-800/60 text-slate-700 dark:text-slate-200 border-slate-200 dark:border-slate-700/80 hover:border-slate-300 dark:hover:border-slate-600'
+                }">
+                    <!-- Background Subtle Volume Fill -->
+                    <div class="absolute inset-y-0 left-0 theme-gradient-bg opacity-15 pointer-events-none transition-all duration-500" style="width: ${grandPercent}%"></div>
+
+                    <div class="relative z-10 flex items-center justify-between gap-1.5 w-full">
+                        <div class="flex items-center gap-2 min-w-0">
+                            <span class="w-7 h-7 rounded-lg theme-gradient-bg text-white flex items-center justify-center shrink-0 text-xs shadow-sm">
+                                <i class="fa-solid fa-layer-group"></i>
+                            </span>
+                            <span class="text-xs font-extrabold truncate">All Subjects (${SYLLABUS_DATA.length})</span>
+                        </div>
+                        <span class="text-[11px] font-black px-1.5 py-0.5 rounded-md bg-emerald-500/15 text-emerald-500 shrink-0">${grandPercent}%</span>
+                    </div>
+
+                    <div class="relative z-10 w-full space-y-1">
+                        <div class="flex items-center justify-between text-[10px] font-bold opacity-80">
+                            <span>Total Volume</span>
+                            <span>${grandCompleted}/${grandTotal} Ch</span>
+                        </div>
+                        <!-- Bottom Border Volume Bar -->
+                        <div class="w-full h-2 bg-slate-200/80 dark:bg-slate-950/80 rounded-full overflow-hidden">
+                            <div class="h-full theme-gradient-bg transition-all duration-500 rounded-full" style="width: ${grandPercent}%"></div>
+                        </div>
+                    </div>
+                </button>
+            `;
+
+            // Individual Subject Volume Buttons
+            SYLLABUS_DATA.forEach(subj => {
+                const stats = calculateSubjectStats(subj);
+                const isActive = activeSubjectTab === subj.id;
+                const style = ACCENT_STYLES[subj.accent] || ACCENT_STYLES.emerald;
+
+                html += `
+                    <button onclick="selectSubjectTab('${subj.id}')" class="relative overflow-hidden text-left p-3 rounded-xl border transition-all duration-300 flex flex-col justify-between gap-2 group ${
+                        isActive
+                            ? `bg-white dark:bg-slate-900 ${style.borderActive} shadow-md`
+                            : 'bg-slate-50/90 dark:bg-slate-800/60 border-slate-200 dark:border-slate-700/80 hover:bg-white dark:hover:bg-slate-800 hover:border-slate-300 dark:hover:border-slate-600'
+                    }">
+                        <!-- Liquid Background Volume Fill inside Button -->
+                        <div class="absolute inset-y-0 left-0 ${style.softFill} pointer-events-none transition-all duration-500" style="width: ${stats.percent}%"></div>
+
+                        <!-- Top Row: Icon + Subject Name + Percentage Badge -->
+                        <div class="relative z-10 flex items-center justify-between gap-1.5 w-full">
+                            <div class="flex items-center gap-2 min-w-0">
+                                <span class="w-7 h-7 rounded-lg ${style.iconBg} flex items-center justify-center shrink-0 text-xs">
+                                    <i class="fa-solid ${subj.icon}"></i>
+                                </span>
+                                <span class="text-xs font-extrabold text-slate-800 dark:text-slate-100 truncate">${escapeHtml(subj.shortTitle)}</span>
+                            </div>
+                            <span class="text-[11px] font-extrabold px-1.5 py-0.5 rounded-md border ${style.badge} shrink-0">
+                                ${stats.percent}%
+                            </span>
+                        </div>
+
+                        <!-- Bottom Row: Chapter Count & Border Volume Fill Bar -->
+                        <div class="relative z-10 w-full space-y-1">
+                            <div class="flex items-center justify-between text-[10px] font-bold text-slate-500 dark:text-slate-400">
+                                <span><i class="fa-solid fa-check-circle ${style.textAccent} mr-1"></i>${stats.completed}/${stats.total} Done</span>
+                                <span><i class="fa-solid fa-repeat text-indigo-400 mr-0.5"></i>${stats.revisions}R</span>
+                            </div>
+                            <!-- Volume Progress Bar Inside Button Bottom Border -->
+                            <div class="w-full h-2 bg-slate-200/90 dark:bg-slate-950 rounded-full overflow-hidden p-[1px]">
+                                <div class="h-full bg-gradient-to-r ${style.bar} transition-all duration-500 rounded-full" style="width: ${stats.percent}%"></div>
+                            </div>
+                        </div>
+                    </button>
+                `;
+            });
+
+            // "+ Add Subject" Card Button
+            html += `
+                <button onclick="openAddSubjectModal()" class="p-3 rounded-xl text-xs font-bold border-2 border-dashed border-slate-300 dark:border-slate-700 hover:border-emerald-500 dark:hover:border-emerald-400 text-slate-500 dark:text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-emerald-500/5 transition flex flex-col items-center justify-center gap-1 min-h-[78px]">
+                    <i class="fa-solid fa-folder-plus text-base"></i>
+                    <span>+ Add Subject</span>
+                </button>
+            `;
+
+            container.innerHTML = html;
+        }
+
+        function filterChapterMatches(ch) {
+            const st = getChapterState(ch.id);
+            const searchVal = (document.getElementById('searchInput')?.value || '').trim().toLowerCase();
+
+            // Search query check
+            if (searchVal) {
+                const nameMatch = ch.name.toLowerCase().includes(searchVal);
+                const noteMatch = (st.note || '').toLowerCase().includes(searchVal);
+                if (!nameMatch && !noteMatch) return false;
+            }
+
+            // Status filter check
+            if (activeStatusFilter === 'completed' && !st.completed) return false;
+            if (activeStatusFilter === 'pending' && st.completed) return false;
+            if (activeStatusFilter === 'needsRevision' && (!st.completed || (st.revisions || 0) >= 2)) return false;
+            if (activeStatusFilter === 'revised3' && (st.revisions || 0) < 3) return false;
+
+            return true;
+        }
+
+        function renderSubjects() {
+            const container = document.getElementById('subjectsContainer');
+            const subjectsToRender = activeSubjectTab === 'all'
+                ? SYLLABUS_DATA
+                : SYLLABUS_DATA.filter(s => s.id === activeSubjectTab);
+
+            let html = '';
+
+            subjectsToRender.forEach(subject => {
+                const stats = calculateSubjectStats(subject);
+                const style = ACCENT_STYLES[subject.accent] || ACCENT_STYLES.emerald;
+                const isCollapsed = !!collapsedSubjects[subject.id];
+                const isAddFormOpen = !!openAddChapterForms[subject.id];
+
+                // Build sections & filtered chapters
+                let sectionsHtml = '';
+                let visibleChaptersInSubject = 0;
+
+                subject.sections.forEach(section => {
+                    const matchingChapters = section.chapters.filter(filterChapterMatches);
+                    visibleChaptersInSubject += matchingChapters.length;
+
+                    if (matchingChapters.length === 0) return;
+
+                    let rowsHtml = '';
+                    matchingChapters.forEach(ch => {
+                        const st = getChapterState(ch.id);
+                        const revCount = st.revisions || 0;
+
+                        // Build R1..R5 revision buttons
+                        let revPillsHtml = '';
+                        for (let r = 1; r <= 5; r++) {
+                            const activePill = revCount >= r;
+                            revPillsHtml += `
+                                <button
+                                    onclick="handleRevisionPillClick('${ch.id}', ${r})"
+                                    title="Toggle Revision ${r}"
+                                    class="checkbox-pop w-7 h-7 rounded-lg text-[11px] font-extrabold border transition flex items-center justify-center ${
+                                        activePill
+                                            ? 'bg-indigo-600 border-indigo-500 text-white shadow-sm shadow-indigo-500/20'
+                                            : 'bg-slate-100 dark:bg-slate-800/80 border-slate-200 dark:border-slate-700 text-slate-500 dark:text-slate-400 hover:border-indigo-400'
+                                    }"
+                                >
+                                    R${r}
+                                </button>
+                            `;
+                        }
+
+                        // Priority Tag selector styling
+                        const tagColors = {
+                            none: 'bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border-slate-200 dark:border-slate-700',
+                            easy: 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border-emerald-500/30',
+                            medium: 'bg-amber-500/10 text-amber-600 dark:text-amber-400 border-amber-500/30',
+                            hard: 'bg-rose-500/10 text-rose-600 dark:text-rose-400 border-rose-500/30'
+                        };
+
+                        rowsHtml += `
+                            <div class="group p-3 sm:px-4 sm:py-3.5 rounded-xl border transition-all ${
+                                st.completed
+                                    ? 'bg-emerald-50/50 dark:bg-emerald-950/20 border-emerald-200/80 dark:border-emerald-900/50'
+                                    : 'bg-white dark:bg-slate-900/60 border-slate-200/80 dark:border-slate-800 hover:border-slate-300 dark:hover:border-slate-700'
+                            }">
+                                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
+                                    <!-- Left: Checkbox + Chapter Number + Chapter Title -->
+                                    <div class="flex items-start sm:items-center gap-3 min-w-0">
+                                        <button
+                                            onclick="toggleChapterComplete('${ch.id}')"
+                                            aria-label="Mark chapter completed"
+                                            class="checkbox-pop w-6 h-6 rounded-lg border-2 flex items-center justify-center shrink-0 mt-0.5 sm:mt-0 transition ${
+                                                st.completed
+                                                    ? 'bg-emerald-500 border-emerald-500 text-white shadow-sm shadow-emerald-500/30'
+                                                    : 'border-slate-300 dark:border-slate-600 hover:border-emerald-500 bg-white dark:bg-slate-800'
+                                            }"
+                                        >
+                                            ${st.completed ? '<i class="fa-solid fa-check text-xs"></i>' : ''}
+                                        </button>
+
+                                        <span class="px-2 py-0.5 text-xs font-bold rounded-md bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 shrink-0">
+                                            #${ch.num}
+                                        </span>
+
+                                        <div class="min-w-0 flex-1">
+                                            <p onclick="toggleChapterComplete('${ch.id}')" class="text-sm sm:text-[15px] font-semibold cursor-pointer select-none transition ${
+                                                st.completed
+                                                    ? 'line-through text-slate-400 dark:text-slate-500'
+                                                    : 'text-slate-800 dark:text-slate-100'
+                                            }">
+                                                ${escapeHtml(ch.name)}
+                                            </p>
+                                            ${st.note ? `<p class="text-xs text-indigo-600 dark:text-indigo-400 mt-0.5"><i class="fa-regular fa-note-sticky mr-1"></i>${escapeHtml(st.note)}</p>` : ''}
+                                        </div>
+                                    </div>
+
+                                    <!-- Right: Multi-Revision Tracker + Priority Tag + Note + Edit/Delete -->
+                                    <div class="flex flex-wrap items-center justify-between sm:justify-end gap-2 pt-2 lg:pt-0 border-t lg:border-t-0 border-slate-100 dark:border-slate-800/80 shrink-0">
+                                        <!-- Revision Pills R1-R5 + Counter -->
+                                        <div class="flex items-center gap-1">
+                                            <span class="text-[11px] font-semibold text-slate-400 mr-1 hidden sm:inline">Revise:</span>
+                                            ${revPillsHtml}
+                                            <button
+                                                onclick="adjustRevisionCount('${ch.id}', 1)"
+                                                title="Add +1 Revision"
+                                                class="checkbox-pop w-7 h-7 rounded-lg text-xs font-bold bg-slate-100 dark:bg-slate-800 hover:bg-indigo-100 dark:hover:bg-indigo-950 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-slate-700 flex items-center justify-center"
+                                            >
+                                                +
+                                            </button>
+                                            ${revCount > 0 ? `
+                                                <button
+                                                    onclick="adjustRevisionCount('${ch.id}', -1)"
+                                                    title="Decrease Revision"
+                                                    class="checkbox-pop w-6 h-7 rounded-lg text-xs font-bold bg-slate-100 dark:bg-slate-800 hover:bg-rose-100 dark:hover:bg-rose-950 text-slate-500 border border-slate-200 dark:border-slate-700 flex items-center justify-center"
+                                                >
+                                                    -
+                                                </button>
+                                            ` : ''}
+                                            <span class="ml-1 px-2 py-1 rounded-lg text-xs font-extrabold ${
+                                                revCount >= 3
+                                                    ? 'bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/30'
+                                                    : revCount > 0
+                                                    ? 'bg-indigo-500/10 text-indigo-600 dark:text-indigo-400'
+                                                    : 'bg-slate-100 dark:bg-slate-800 text-slate-400'
+                                            }">
+                                                ${revCount}x ${revCount >= 3 ? '🔥' : ''}
+                                            </span>
+                                        </div>
+
+                                        <!-- Difficulty / Priority Tag + Note + Edit + Delete -->
+                                        <div class="flex items-center gap-1">
+                                            <select
+                                                onchange="updateChapterTag('${ch.id}', this.value)"
+                                                aria-label="Chapter difficulty or priority"
+                                                class="text-[11px] font-bold px-2 py-1 rounded-lg border focus:outline-none cursor-pointer ${tagColors[st.tag || 'none']}"
+                                            >
+                                                <option value="none" ${st.tag === 'none' ? 'selected' : ''}>Priority</option>
+                                                <option value="easy" ${st.tag === 'easy' ? 'selected' : ''}>🟢 Low</option>
+                                                <option value="medium" ${st.tag === 'medium' ? 'selected' : ''}>🟡 Medium</option>
+                                                <option value="hard" ${st.tag === 'hard' ? 'selected' : ''}>🔴 High</option>
+                                            </select>
+
+                                            <button
+                                                onclick="toggleNoteInput('${ch.id}')"
+                                                title="Add/Edit Quick Note"
+                                                class="p-1.5 rounded-lg text-xs border transition ${
+                                                    st.note
+                                                        ? 'bg-indigo-500/10 border-indigo-500/30 text-indigo-500'
+                                                        : 'bg-slate-100 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200'
+                                                }"
+                                            >
+                                                <i class="fa-regular fa-comment-dots"></i>
+                                            </button>
+
+                                            <button
+                                                onclick="openEditChapterModal('${subject.id}', '${ch.id}')"
+                                                title="Edit Chapter Name or Category"
+                                                class="p-1.5 rounded-lg text-xs border bg-slate-100 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-400 hover:text-indigo-500 transition"
+                                            >
+                                                <i class="fa-solid fa-pen"></i>
+                                            </button>
+
+                                            <button
+                                                onclick="openConfirmModal('deleteChapter', '${subject.id}', '${ch.id}')"
+                                                title="Delete Chapter"
+                                                class="p-1.5 rounded-lg text-xs border bg-slate-100 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-400 hover:text-rose-500 transition"
+                                            >
+                                                <i class="fa-solid fa-trash-can"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Expandable Quick Note Box -->
+                                <div id="note-box-${ch.id}" class="hidden mt-2.5 pt-2.5 border-t border-slate-200/60 dark:border-slate-800 flex items-center gap-2">
+                                    <input
+                                        type="text"
+                                        id="note-input-${ch.id}"
+                                        value="${escapeHtml(st.note || '')}"
+                                        placeholder="Write quick note, book page number, or weak area..."
+                                        onkeydown="if(event.key==='Enter'){saveChapterNote('${ch.id}', this.value); toggleNoteInput('${ch.id}'); renderAll();}"
+                                        onblur="saveChapterNote('${ch.id}', this.value); renderAll();"
+                                        class="flex-1 text-xs px-3 py-1.5 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                                    >
+                                    <button onclick="toggleNoteInput('${ch.id}')" class="text-xs px-2.5 py-1 rounded-lg bg-indigo-600 text-white font-semibold">Done</button>
+                                </div>
+                            </div>
+                        `;
+                    });
+
+                    sectionsHtml += `
+                        <div class="space-y-2.5">
+                            <div class="flex items-center justify-between px-1">
+                                <h3 class="text-xs font-extrabold uppercase tracking-wider text-slate-500 dark:text-slate-400 flex items-center gap-2">
+                                    <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                                    ${escapeHtml(section.title)}
+                                </h3>
+                                <span class="text-[11px] font-semibold text-slate-400">${matchingChapters.length} Chapters</span>
+                            </div>
+                            <div class="space-y-2">
+                                ${rowsHtml}
+                            </div>
+                        </div>
+                    `;
+                });
+
+                const searchVal = (document.getElementById('searchInput')?.value || '').trim();
+                if (visibleChaptersInSubject === 0 && (searchVal !== '' || activeStatusFilter !== 'all')) {
+                    return; // Skip subject card if search/filter hides all its chapters
+                }
+
+                // Section options for inline "+ Add Chapter" form
+                const sectionOptionsHtml = subject.sections.map(sec =>
+                    `<option value="${escapeHtml(sec.title)}">${escapeHtml(sec.title)}</option>`
+                ).join('') + `<option value="__NEW__">+ New Sub-Category...</option>`;
+
+                const inlineAddFormHtml = `
+                    <div id="add-chap-box-${subject.id}" class="${isAddFormOpen ? 'block' : 'hidden'} bg-emerald-50/60 dark:bg-emerald-950/20 border border-emerald-500/30 rounded-xl p-3.5 mb-4 space-y-3">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-extrabold uppercase tracking-wider text-emerald-700 dark:text-emerald-400 flex items-center gap-1.5">
+                                <i class="fa-solid fa-plus-circle"></i> Add New Chapter to ${escapeHtml(subject.shortTitle)}
+                            </span>
+                            <button onclick="toggleAddChapterForm('${subject.id}')" class="text-xs text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+                                <i class="fa-solid fa-xmark"></i> Close
+                            </button>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-12 gap-2.5">
+                            <div class="sm:col-span-5">
+                                <input
+                                    type="text"
+                                    id="new-chap-name-${subject.id}"
+                                    placeholder="Enter Chapter / Topic Name..."
+                                    onkeydown="if(event.key==='Enter') addChapterToSubject('${subject.id}')"
+                                    class="w-full px-3 py-2 text-xs font-medium rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                                >
+                            </div>
+                            <div class="sm:col-span-3">
+                                <select
+                                    id="new-chap-sec-${subject.id}"
+                                    onchange="document.getElementById('new-chap-custom-sec-wrap-${subject.id}').classList.toggle('hidden', this.value !== '__NEW__')"
+                                    class="w-full px-2.5 py-2 text-xs font-medium rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                                >
+                                    ${sectionOptionsHtml}
+                                </select>
+                            </div>
+                            <div class="sm:col-span-2">
+                                <select
+                                    id="new-chap-tag-${subject.id}"
+                                    class="w-full px-2.5 py-2 text-xs font-medium rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                                >
+                                    <option value="none">Priority: Normal</option>
+                                    <option value="easy">🟢 Low</option>
+                                    <option value="medium">🟡 Medium</option>
+                                    <option value="hard">🔴 High</option>
+                                </select>
+                            </div>
+                            <div class="sm:col-span-2">
+                                <button
+                                    onclick="addChapterToSubject('${subject.id}')"
+                                    class="w-full py-2 px-3 text-xs font-bold rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white transition shadow-sm"
+                                >
+                                    <i class="fa-solid fa-plus mr-1"></i>Add
+                                </button>
+                            </div>
+                        </div>
+                        <div id="new-chap-custom-sec-wrap-${subject.id}" class="hidden">
+                            <input
+                                type="text"
+                                id="new-chap-custom-sec-${subject.id}"
+                                placeholder="Enter new sub-category name (e.g., Mock Test, Extra Topic, Odisha Special)..."
+                                class="w-full px-3 py-1.5 text-xs rounded-lg bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                            >
+                        </div>
+                    </div>
+                `;
+
+                html += `
+                    <article class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm overflow-hidden">
+                        <!-- Subject Card Header -->
+                        <div class="p-4 sm:px-6 bg-slate-50/70 dark:bg-slate-900/90 border-b border-slate-200/80 dark:border-slate-800">
+                            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                                <!-- Subject Title & Icon -->
+                                <div class="flex items-start sm:items-center gap-3.5 cursor-pointer select-none" onclick="toggleSubjectCollapse('${subject.id}')">
+                                    <div class="w-11 h-11 rounded-xl ${style.iconBg} flex items-center justify-center shrink-0">
+                                        <i class="fa-solid ${subject.icon} text-lg"></i>
+                                    </div>
+                                    <div>
+                                        <div class="flex items-center gap-2">
+                                            <span class="text-xs font-extrabold uppercase px-2 py-0.5 rounded-md border ${style.badge}">
+                                                Subject ${escapeHtml(subject.code)}
+                                            </span>
+                                            <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400">
+                                                <i class="fa-solid fa-repeat mr-1"></i>${stats.revisions} Revisions
+                                            </span>
+                                        </div>
+                                        <h2 class="text-base sm:text-lg font-extrabold text-slate-900 dark:text-white mt-0.5 flex items-center gap-2">
+                                            ${escapeHtml(subject.title)}
+                                            <i class="fa-solid fa-chevron-${isCollapsed ? 'down' : 'up'} text-xs text-slate-400"></i>
+                                        </h2>
+                                    </div>
+                                </div>
+
+                                <!-- Subject Progress Bar & Bulk Actions -->
+                                <div class="flex flex-col sm:flex-row sm:items-center gap-3 md:min-w-[420px]">
+                                    <div class="flex-1">
+                                        <div class="flex items-center justify-between text-xs mb-1">
+                                            <span class="font-bold text-slate-700 dark:text-slate-200">
+                                                ${stats.completed} / ${stats.total} Completed (${stats.percent}%)
+                                            </span>
+                                            <span class="font-extrabold text-emerald-600 dark:text-emerald-400">${stats.percent}%</span>
+                                        </div>
+                                        <div class="w-full h-2.5 bg-slate-200 dark:bg-slate-800 rounded-full overflow-hidden">
+                                            <div class="h-full bg-gradient-to-r ${style.bar} transition-all duration-500 rounded-full" style="width: ${stats.percent}%"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-wrap items-center gap-1.5 shrink-0">
+                                        <button
+                                            onclick="toggleAddChapterForm('${subject.id}')"
+                                            title="Add a new chapter to this subject"
+                                            class="px-2.5 py-1.5 text-[11px] font-bold rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm transition"
+                                        >
+                                            <i class="fa-solid fa-plus mr-1"></i>Add Chapter
+                                        </button>
+                                        <button
+                                            onclick="markSubjectAllCompleted('${subject.id}')"
+                                            title="Mark all chapters in this subject completed"
+                                            class="px-2.5 py-1.5 text-[11px] font-bold rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 transition"
+                                        >
+                                            <i class="fa-solid fa-check-double"></i>
+                                        </button>
+                                        <button
+                                            onclick="openAddSubjectModal('${subject.id}')"
+                                            title="Edit Subject Name or Color"
+                                            class="p-1.5 text-xs rounded-lg bg-slate-100 hover:bg-indigo-500/10 dark:bg-slate-800 text-slate-400 hover:text-indigo-500 border border-slate-200 dark:border-slate-700 transition"
+                                        >
+                                            <i class="fa-solid fa-pen"></i>
+                                        </button>
+                                        <button
+                                            onclick="openConfirmModal('resetSubject', '${subject.id}')"
+                                            title="Reset progress for this subject"
+                                            class="p-1.5 text-xs rounded-lg bg-slate-100 hover:bg-amber-500/10 dark:bg-slate-800 text-slate-400 hover:text-amber-500 border border-slate-200 dark:border-slate-700 transition"
+                                        >
+                                            <i class="fa-solid fa-rotate-left"></i>
+                                        </button>
+                                        <button
+                                            onclick="openConfirmModal('deleteSubject', '${subject.id}')"
+                                            title="Delete this entire subject"
+                                            class="p-1.5 text-xs rounded-lg bg-slate-100 hover:bg-rose-500/10 dark:bg-slate-800 text-slate-400 hover:text-rose-500 border border-slate-200 dark:border-slate-700 transition"
+                                        >
+                                            <i class="fa-solid fa-trash-can"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Subject Chapters Body -->
+                        <div class="${isCollapsed ? 'hidden' : 'p-4 sm:p-6 space-y-6'}">
+                            ${inlineAddFormHtml}
+                            ${sectionsHtml || `
+                                <div class="text-center py-6 border border-dashed border-slate-200 dark:border-slate-800 rounded-xl">
+                                    <p class="text-xs text-slate-400 mb-2">No chapters in this subject yet.</p>
+                                    <button onclick="toggleAddChapterForm('${subject.id}')" class="px-3 py-1.5 text-xs font-bold rounded-lg bg-emerald-600 text-white">
+                                        + Add First Chapter
+                                    </button>
+                                </div>
+                            `}
+                        </div>
+                    </article>
+                `;
+            });
+
+            if (!html) {
+                html = `
+                    <div class="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 p-12 text-center space-y-3">
+                        <div class="w-12 h-12 rounded-2xl bg-slate-100 dark:bg-slate-800 text-slate-400 flex items-center justify-center mx-auto">
+                            <i class="fa-solid fa-magnifying-glass text-xl"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-slate-800 dark:text-slate-200">No matching chapters found</h3>
+                        <p class="text-xs text-slate-500 dark:text-slate-400 max-w-sm mx-auto">
+                            Try clearing your search box or switching the status filter back to "All Chapters".
+                        </p>
+                        <button onclick="resetFilters()" class="px-4 py-2 text-xs font-bold rounded-xl bg-emerald-600 text-white hover:bg-emerald-500 transition">
+                            Show All Chapters
+                        </button>
+                    </div>
+                `;
+            }
+
+            container.innerHTML = html;
+        }
+
+        // ============================================================================
+        // 6. NAVIGATION, FILTERING, BACKUP & RESTORE
+        // ============================================================================
+        function selectSubjectTab(tabId) {
+            activeSubjectTab = tabId;
+            renderAll();
+        }
+
+        function setStatusFilter(filter) {
+            activeStatusFilter = filter;
+            document.querySelectorAll('#statusFilterGroup .filter-btn').forEach(btn => {
+                if (btn.dataset.filter === filter) {
+                    btn.className = 'filter-btn px-3 py-1.5 text-xs font-semibold rounded-xl bg-emerald-600 text-white transition';
+                } else {
+                    btn.className = 'filter-btn px-3 py-1.5 text-xs font-semibold rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition';
+                }
+            });
+            renderSubjects();
+        }
+
+        function handleSearchAndFilter() {
+            const val = document.getElementById('searchInput').value;
+            const clearBtn = document.getElementById('clearSearchBtn');
+            if (val.trim().length > 0) {
+                clearBtn.classList.remove('hidden');
+            } else {
+                clearBtn.classList.add('hidden');
+            }
+            renderSubjects();
+        }
+
+        function clearSearch() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('clearSearchBtn').classList.add('hidden');
+            renderSubjects();
+        }
+
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('clearSearchBtn').classList.add('hidden');
+            activeSubjectTab = 'all';
+            setStatusFilter('all');
+            renderAll();
+        }
+
+        function toggleSubjectCollapse(subjectId) {
+            collapsedSubjects[subjectId] = !collapsedSubjects[subjectId];
+            renderSubjects();
+        }
+
+        function toggleAllSubjects(expand) {
+            SYLLABUS_DATA.forEach(s => {
+                collapsedSubjects[s.id] = !expand;
+            });
+            renderSubjects();
+        }
+
+        function toggleTheme() {
+            const htmlEl = document.documentElement;
+            if (htmlEl.classList.contains('dark')) {
+                htmlEl.classList.remove('dark');
+                localStorage.setItem(THEME_KEY, 'light');
+            } else {
+                htmlEl.classList.add('dark');
+                localStorage.setItem(THEME_KEY, 'dark');
+            }
+            updateThemeIcon();
+        }
+
+        function updateThemeIcon() {
+            const icon = document.getElementById('themeIcon');
+            if (!icon) return;
+            if (document.documentElement.classList.contains('dark')) {
+                icon.className = 'fa-solid fa-sun text-amber-400';
+            } else {
+                icon.className = 'fa-solid fa-moon text-slate-700';
+            }
+        }
+
+        // Export & Import JSON Backup (Includes Custom Syllabus & Progress)
+        function exportBackup() {
+            const dataStr = JSON.stringify({
+                exam: 'OUSSSC Odisha Constable 01-CRE-2026',
+                exportedAt: new Date().toISOString(),
+                syllabus: SYLLABUS_DATA,
+                progress: userProgress
+            }, null, 2);
+            const blob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `Odisha_Constable_Progress_Backup_${new Date().toISOString().slice(0,10)}.json`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            showToast('Custom syllabus & progress backup downloaded!');
+        }
+
+        function importBackup(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const parsed = JSON.parse(e.target.result);
+                    if (parsed && parsed.progress) {
+                        userProgress = parsed.progress;
+                        if (Array.isArray(parsed.syllabus) && parsed.syllabus.length > 0) {
+                            SYLLABUS_DATA = parsed.syllabus;
+                        }
+                        saveState('Backup Restored ✓');
+                        renderAll();
+                        showToast('Syllabus & progress backup restored!');
+                    } else {
+                        showToast('Invalid backup file format.', false);
+                    }
+                } catch (err) {
+                    showToast('Could not read backup file.', false);
+                }
+            };
+            reader.readAsText(file);
+            event.target.value = '';
+        }
+
+        // Confirmation Modal Logic
+        function openConfirmModal(actionType, subjectId = null, chapterId = null) {
+            const modal = document.getElementById('confirmModal');
+            const title = document.getElementById('modalTitle');
+            const desc = document.getElementById('modalDesc');
+            const confirmBtn = document.getElementById('modalConfirmBtn');
+
+            if (actionType === 'resetAll') {
+                title.textContent = 'Reset All Completion & Revision Ticks?';
+                desc.textContent = 'This will clear all completed ticks, revision counts, and notes across your chapters. Your custom subjects and chapters will remain.';
+                confirmBtn.onclick = () => {
+                    userProgress = {};
+                    saveState('All Progress Reset');
+                    renderAll();
+                    closeConfirmModal();
+                    showToast('All syllabus progress has been reset.', false);
+                };
+            } else if (actionType === 'resetDefaultSyllabus') {
+                title.textContent = 'Restore Official Default Syllabus?';
+                desc.textContent = 'This will restore the original 5 subjects (101 chapters) and remove any custom subjects or custom chapters you added.';
+                confirmBtn.onclick = () => {
+                    SYLLABUS_DATA = JSON.parse(JSON.stringify(DEFAULT_SYLLABUS_DATA));
+                    activeSubjectTab = 'all';
+                    saveState('Default Syllabus Restored ✓');
+                    renderAll();
+                    closeConfirmModal();
+                    showToast('Official default syllabus restored!');
+                };
+            } else if (actionType === 'resetSubject') {
+                const subj = SYLLABUS_DATA.find(s => s.id === subjectId);
+                title.textContent = `Reset Progress for ${subj ? subj.shortTitle : 'Subject'}?`;
+                desc.textContent = `All completed ticks and revision counts inside ${subj ? subj.title : 'this subject'} will be cleared.`;
+                confirmBtn.onclick = () => {
+                    resetSubjectProgress(subjectId);
+                    closeConfirmModal();
+                };
+            } else if (actionType === 'deleteSubject') {
+                const subj = SYLLABUS_DATA.find(s => s.id === subjectId);
+                title.textContent = `Delete "${subj ? subj.shortTitle : 'Subject'}"?`;
+                desc.textContent = `This will remove the entire subject "${subj ? subj.title : ''}" and all its chapters from your tracker.`;
+                confirmBtn.onclick = () => {
+                    deleteSubject(subjectId);
+                    closeConfirmModal();
+                };
+            } else if (actionType === 'deleteChapter') {
+                title.textContent = 'Delete This Chapter?';
+                desc.textContent = 'Are you sure you want to remove this chapter from the subject?';
+                confirmBtn.onclick = () => {
+                    deleteChapter(subjectId, chapterId);
+                    closeConfirmModal();
+                };
+            }
+
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeConfirmModal() {
+            const modal = document.getElementById('confirmModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function escapeHtml(str) {
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        function renderAll() {
+            updateOverallDashboard();
+            renderSubjectTabs();
+            renderSubjects();
+        }
+
+        // Initialize on load
+        window.onload = function () {
+            loadState();
+            renderAll();
+        };
+    </script>
+</body>
+</html>
